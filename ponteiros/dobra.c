@@ -9,8 +9,7 @@ int main () {
     printf("Digite um número inteiro: ");
     int valor;
     scanf("%d", valor);
-    int *ptr;
-    ptr = &valor;
+    int *ptr = &valor;
     printf("O dobro do valor é: %d\n", *ptr * 2);
     return 0;
 }
